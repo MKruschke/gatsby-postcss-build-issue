@@ -9,6 +9,11 @@
   },
   "dependencies": {
     "gatsby": "next",
+    "gatsby-plugin-postcss": "^1.0.0",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-reporter": "^5.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
