@@ -1,0 +1,15 @@
+:root {
+    --color-neutral: grey;
+
+    --color-highlight: red;
+
+    @custom-media --tablet (min-width: 768px);
+}
+
+body {
+    background: var(--color-neutral);
+
+    @media (--tablet) {
+        background: var(--color-highlight);
+    }
+}
